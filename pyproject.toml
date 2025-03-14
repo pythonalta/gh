@@ -1,0 +1,15 @@
+[project]
+name = "gh"
+version = "0.0.0"
+description = "An intuitive wrapper for github Python client and for github API"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "some_license"}
+authors = [
+    {name = "Yuri Ximenes", email = "yx.dev@gmx.ie"},
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+    
